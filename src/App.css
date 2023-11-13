@@ -21,9 +21,19 @@ header {
   width: 100%;
   align-items: center;
   justify-content: center;
-  margin: 20px;
+  margin: 3rem 20px 1rem;
 }
 
 .lupis-logo {
-  height: 120px;
+  height: 130px;
+}
+
+#main-border {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  border-image-repeat: stretch;
+  align-items: center;
+  justify-content: center;
 }
