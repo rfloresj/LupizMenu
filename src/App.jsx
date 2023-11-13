@@ -4,11 +4,11 @@ import lupizLogo from "./images/Lupiz.png";
 function App() {
   return (
     <>
-      <div>
-        <header>
-          <img className="lupiz-logo" src={lupizLogo} alt="lupiz-logo" />
-        </header>
-      </div>
+      <header>
+        <div className="lupis-container">
+          <img className="lupis-logo" src={lupizLogo} alt="lupis-logo" />
+        </div>
+      </header>
     </>
   );
 }

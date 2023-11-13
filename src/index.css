@@ -1,23 +1,4 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  background-color: #f5f3ec;
-}
-
-body {
   margin: 0;
-  padding: 0;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-header {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 20px;
-}
-
-.lupiz-logo {
-  height: 120px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
