@@ -1,0 +1,11 @@
+.lupis-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 20px 1rem;
+}
+
+.lupis-logo {
+  height: 130px;
+}
