@@ -8,32 +8,16 @@ body {
   background-color: #f5f3ec;
 }
 
-header {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  border-bottom: solid black;
-}
-
-.lupis-container {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  margin: 3rem 20px 1rem;
-}
-
-.lupis-logo {
-  height: 130px;
-}
-
 #main-border {
-  display: flex;
+  display: block;
   position: fixed;
   width: 100%;
   height: 100vh;
   border-image-repeat: stretch;
   align-items: center;
   justify-content: center;
+}
+
+.border {
+  z-index: 0;
 }
