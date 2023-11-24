@@ -9,9 +9,35 @@
 }
 
 .nav-item {
+  position: relative;
+  display: inline-block;
   font-family: "Alatsi", sans-serif;
   text-decoration: none;
   color: black;
   cursor: pointer;
+  padding-bottom: 5px;
   z-index: 1;
+}
+
+.nav-item:hover {
+  /* display: inline-block;
+  position: relative; */
+  color: #ea0a8c;
+}
+
+.nav-item:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  /* transform: scaleX(0); */
+  top: 100%;
+  height: 2px;
+  left: 0;
+  background-color: #ea0a8c;
+  /* transform-origin: bottom right; */
+  transition: width 0.25s ease-in-out;
+}
+
+.nav-item:hover:after {
+  width: 100%;
 }
